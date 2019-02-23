@@ -1,14 +1,14 @@
 <?php
 
-namespace Illuminate\Encryption;
+namespace Zz\Encryption;
 
-use Illuminate\Encryption\Exception\DecryptException;
-use Illuminate\Encryption\Exception\EncryptException;
+use Zz\Encryption\Exception\DecryptException;
+use Zz\Encryption\Exception\EncryptException;
 use RuntimeException;
 
 /**
  * Class Encrypter
- * @package Illuminate\Encryption
+ * @package Zz\Encryption
  */
 class Encrypter
 {

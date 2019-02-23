@@ -1,10 +1,10 @@
 <?php
 
-namespace Illuminate\Encryption\Exception;
+namespace Zz\Encryption\Exception;
 
 /**
  * Class DecryptException
- * @package Illuminate\Encryption
+ * @package Zz\Encryption
  */
 class DecryptException extends \RuntimeException
 {

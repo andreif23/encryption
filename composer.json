@@ -1,28 +1,25 @@
 {
-    "name": "illuminate/encryption",
-    "description": "The Illuminate Encryption package.",
+    "name": "andreif23/encryption",
+    "description": "A fork of Illuminate Encryption package with no dependencies.",
     "license": "MIT",
-    "homepage": "https://laravel.com",
-    "support": {
-        "issues": "https://github.com/laravel/framework/issues",
-        "source": "https://github.com/laravel/framework"
-    },
     "authors": [
         {
             "name": "Taylor Otwell",
             "email": "taylor@laravel.com"
+        },
+        {
+            "name": "Furnica Andrei"
         }
     ],
     "require": {
         "php": "^7.2",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "ext-openssl": "*",
-        "illuminate/contracts": "5.9.*"
+        "ext-openssl": "*"
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Encryption\\": ""
+            "Zz\\Encryption\\": ""
         }
     },
     "extra": {
